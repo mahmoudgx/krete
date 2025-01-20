@@ -1,4 +1,3 @@
-import React from "react";
 import FeaturedProductCard from "./FeaturedProductCard";
 
 const FeaturedProduct = () => {
@@ -20,21 +19,21 @@ const FeaturedProduct = () => {
           image="https://krete.club/cdn/shop/files/essentials-kit-collection_d8f83c90-210f-4d58-8162-66abaeb63dac_520x.jpg?v=1702711902"
           title="Hydrating Facial Serum"
           description="A concentrated moisturizer with apple stem cell extract."
-          rating="4.5"
+          rating={4.5}
           review="221"
         />
         <FeaturedProductCard
           image="https://krete.club/cdn/shop/files/eye-stick-collection_d0c973e7-d417-49e0-a2c4-761467263553_520x.jpg?v=1718003982"
           title="Hydrating Facial Serum"
           description="A concentrated moisturizer with apple stem cell extract."
-          rating="4.5"
+          rating={4.5}
           review="221"
         />
         <FeaturedProductCard
           image="https://krete.club/cdn/shop/files/facial-serum-collection_520x.jpg?v=1677216258"
           title="Hydrating Facial Serum"
           description="A concentrated moisturizer with apple stem cell extract."
-          rating="4.5"
+          rating={4.5}
           review="221"
         />
       </div>

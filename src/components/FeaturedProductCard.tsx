@@ -5,7 +5,7 @@ interface Props {
   image: string;
   title: string;
   description: string;
-  rating: string;
+  rating: number;
   review: string;
 }
 
